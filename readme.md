@@ -20,6 +20,8 @@
 
 ### 注意
 
+- [!] 絶対にファイルのコピーを保存しておいてください！プログラムで変更かけられたファイルは元に戻りません！
+
 このプログラムはCUDAを使用してGPUでの高速処理をサポートしています。CUDAを有効にするには、適切なバージョンのPyTorchとCUDAがインストールされている必要があります。詳細は[PyTorchの公式ドキュメント](https://pytorch.org/get-started/locally/)を参照してください。
 
 ## English
@@ -39,5 +41,7 @@ Just run `python --input-dir <UTAU VB PATH>` and it will take care of the rest.
 `--no-cuda` Disable CUDA. Process using the CPU only, without using the GPU.
 
 ### Note
+
+- [!] be sure to ALWAYS have a backup of the voicebank. The operation is irreversible.
 
 This program supports fast processing on the GPU using CUDA. To enable CUDA, you need to have the appropriate version of PyTorch and CUDA installed. For more details, refer to the [official PyTorch documentation](https://pytorch.org/get-started/locally/).
